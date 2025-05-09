@@ -34,13 +34,23 @@ body {
     box-shadow: 0 25px 25px 0px rgba(0, 0, 0, 0.2);
     padding: 16px;
     padding-bottom: 40px;
+    transition: all ease-in-out 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
 
 .qrcode {
-    width: 288px;
-    height: 288px;
+    max-width: 288px;
+    max-height: 288px;
     border-radius: 10px;
     object-fit: cover;
+    transition: all ease-out 0.3s;
+}
+
+.qrcode:hover {
+    transform: scale(1.05);
 }
 
 .content {
