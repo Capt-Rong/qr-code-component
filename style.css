@@ -46,11 +46,11 @@ body {
     max-height: 288px;
     border-radius: 10px;
     object-fit: cover;
-    transition: all ease-out 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 
 .qrcode:hover {
-    transform: scale(1.05);
+    opacity: 80%;
 }
 
 .content {
